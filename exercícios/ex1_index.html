@@ -27,14 +27,56 @@
             border-color: black;
             margin-top: 20px;
         }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed; 
+            top: 0;
+            width: 100%;
+            display: flex;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background: #ddd;
+            color: black;
+        }
+        .main {
+            margin-top: 30px;
+        }
+        #logo{
+            position: static;
+            height: 50px;
+            
+        }
+       
     </style>
 </head>
 <body>
-    <h1>Semana 1</h1>
-    <hr>
-    <p>Este é o resultado do primeiro exercício <br> da primeira semana <br> do curso DEVinHouse. &#x1F680;</p> 
-    <form action="./ex2_.html">
-        <button type="submit">Avançar <img src="../extras/favicon-32x32.png" alt=""></button>
-    </form>  
+    <div class="navbar">
+        <img id="logo" src="./ex2_logoclamed.jpg" alt="logo">
+        <a href="./ex1_index.html">Home</a>
+        <a href="./ex2_.html">Imagens</a>
+    </div>
+    <br>
+    <div class="main">
+        <h1>Semana 1</h1>
+        <hr>
+        <p>Este é o resultado do primeiro exercício <br> da primeira semana <br> do curso DEVinHouse. &#x1F680;</p> 
+        <form action="./ex2_.html">
+            <button type="submit">Avançar <img src="../extras/favicon-32x32.png" alt=""></button>
+        </form>
+        
+        <h2>CLAMED</h2>
+        <p>Farmácia Preço Popular, pode confiar</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6Wqase0y4ZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>    
 </body>
 </html>
