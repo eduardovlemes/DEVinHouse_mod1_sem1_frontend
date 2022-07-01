@@ -11,21 +11,25 @@ h2{
     border-color: red;
 }*/
 body{
-    padding: 100px;
-    background-color: lightblue;
+    margin: 0px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color:lightblue;
 }
 .card{
     display: flex;
-    background-color: lightgray;
     align-items: center;
     justify-content: left;
+    background-color: white;
     width: 300px;
-    padding: 10px;
+    padding: 20px;
+    margin-bottom: 5px;
     
 }
 .imagem img{
     height: 80px;
     width: 80px;
+    border: 1px solid lightblue;
     border-radius: 50px;    
 }
 div.card div.info p{
